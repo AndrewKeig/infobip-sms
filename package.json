@@ -1,0 +1,49 @@
+{
+  "name": "infobip-sms",
+  "version": "0.1.0",
+  "author": "Andrew Keig <andrew.keig@gmail.com>",
+  "description": "This is a node module for the infobip sms service; currently the only endpoint implemented is sendsms.",
+  "homepage": "https://github.com/andrewkeig/infobip-sms",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewkeig/infobip-sms"
+  },
+  "main": "index.js",
+  "keywords": [
+    "infobip",
+    "sms"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "grunt test",
+    "coverage": "grunt coverage"
+  },
+  "dependencies": {
+    "joi": "^5.0.2",
+    "lodash": "^2.4.1",
+    "request": "^2.51.0"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-config-dir": "^0.3.2",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-mocha-cli": "^1.11.0",
+    "grunt-mocha-istanbul": "^2.2.0",
+    "istanbul": "^0.3.5",
+    "jshint": "^2.5.10",
+    "mocha": "^2.0.1",
+    "randomstring": "^1.0.3",
+    "sinon": "^1.12.1"
+  },
+  "bugs": {
+    "url": "https://github.com/andrewkeig/infobip-sms/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/andrewkeig/infobip-sms/raw/master/LICENSE"
+    }
+  ]
+}
